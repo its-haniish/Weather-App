@@ -67,7 +67,7 @@ const fetchData = async(city)=>{
 }
 
 // calling api once to load start data
-fetchData('mohali');
+fetchData('hisar');
 cityName.innerText = 'Weather';
 
 // function to call api which is defined in fetchData function
